@@ -10,7 +10,7 @@ document.querySelector("#add").addEventListener("click", function () {
 		lst.insertBefore(li, lst.firstChild);
 	})
 	.catch((error) => {
-		console.log(error)
+		console.log(error);
 	});
 
 });
